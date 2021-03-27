@@ -11,22 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Physics, University of Pisa, 2018
+* M.S. in Physics, University of Pisa, 2020
+* Professional Master Program, [Scuola Normale Superiore](https://www.sns.it/), 2020
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2018: Research Intern
+  * [Complex Science Hub](https://www.csh.ac.at/)
+  * Entropy properties of text sequences
+  * Supervisor: Vito D.P. Servedio
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2020: Visiting Graduate Researcher
+  * [University of California Los Angeles](https://www.ucla.edu/)
+  * Dynamics of Stochastic Gradient Descent in the loss landscape of Deep Neural Networks
+  * Supervisors: Stefano Soatto, Alessandro Achille
+
+
+<!--
 Skills
 ======
 * Skill 1
@@ -41,19 +43,21 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+-->
