@@ -18,5 +18,3 @@ My main areas of interest include,
 
 Before joining IST Austria I studied Physics at Scuola Normale Superiore and University of Pisa, where I mostly focused
 on Quantum Information Theory, Statistical Physics and Machine Learning.
-
-I also enjoy fitness training, and forcing people to train and eat healthy food :).

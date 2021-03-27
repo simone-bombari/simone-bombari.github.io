@@ -1,16 +1,15 @@
 ---
-title: "Teaching experience 1"
+title: "Olympiad Teaching"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Mathematics and Physics Olympiad trainer at [scientific high school Galileo Galilei](https://www.galileicrema.edu.it/)"
+# permalink: /teaching/2014-spring-teaching-1
+location: "Crema, Italy"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Since I finished my "career" as an olympiad competitor, I started advicing and training students from my highschool.
+In particular, I regularly hold classes on selected topics for Mathematics and Physics Olympiad.
 
-Heading 1
+<!--> Heading 1
 ======
 
 Heading 2
@@ -18,3 +17,4 @@ Heading 2
 
 Heading 3
 ======
+<-->
