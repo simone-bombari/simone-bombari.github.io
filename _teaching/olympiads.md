@@ -1,8 +1,9 @@
 ---
 title: "Olympiad Teaching"
 collection: teaching
-type: "Mathematics and Physics Olympiad trainer at scientific high school Galileo Galilei"
-permalink: https://www.galileicrema.edu.it/
+type: "Mathematics and Physics Olympiads"
+permalink: /teaching/olympiads.md
+venue: "Scientific high school Galileo Galilei"
 location: "Crema, Italy"
 ---
 
