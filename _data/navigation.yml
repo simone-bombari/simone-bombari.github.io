@@ -6,9 +6,6 @@ main:
   # - title: "Talks"
   #  url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/
-
   # - title: "Portfolio"
   #   url: /portfolio/
 
@@ -18,6 +15,12 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "Teaching"
+    url: /teaching/
+
+
+  - title: "Material and Projects"
+    url: /material-and-projects/
 #  - title: "Guide"
 #    url: /markdown/
 
