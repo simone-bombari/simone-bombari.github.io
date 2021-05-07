@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a currently a 0-th year PhD student at the Institute of Science and Technology Austria ([IST Austria](https://ist.ac.at/en/home/)).
-I have the fortune to be supervised by [Marco Mondelli](http://marcomondelli.com/).
+I'm supervised by Professor [Marco Mondelli](http://marcomondelli.com/).
 
 My main areas of interest include
 * Theoretical Machine Learning
