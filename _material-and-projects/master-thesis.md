@@ -12,4 +12,4 @@ Check this shit out dude!
 
 let's add a pdf!
 
-[Download paper here](http://academicpages.github.io/files/master-thesis.pdf)
+[Download paper here](https://github.com/simone-bombari/simone-bombari.github.io/blob/master/files/master_thesis.pdf)
