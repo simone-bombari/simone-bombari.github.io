@@ -8,7 +8,8 @@ date: ""
 location: "Crema, Italy"
 ---
 
-Since I finished my "career" as an olympiad competitor, I started advicing and training students from my highschool.
+Since I finished my "career" as an Olympiad competitor, I started advising and training students from my high school.
 In particular, I regularly hold classes on selected topics for Mathematics and Physics Olympiad.
 
 I will soon share some relevant material on this page too :)
+TEST TEST TEST 
