@@ -8,13 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a currently a 0-th year PhD student at the Institute of Science and Technology Austria ([IST Austria](https://ist.ac.at/en/home/)).
-I'm supervised by Professor [Marco Mondelli](http://marcomondelli.com/).
+I am a currently a first year PhD student at the Institute of Science and Technology Austria ([IST Austria](https://ist.ac.at/en/home/)).
+I'm happy and lucky to be supervised by Professor [Marco Mondelli](http://marcomondelli.com/).
 
 My main areas of interest include
 * Theoretical Machine Learning
 * Information Theory
 * High dimensional Statistics
 
-Before joining IST Austria I studied Physics at Scuola Normale Superiore and University of Pisa, where I mostly focused
-on Quantum Information Theory, Statistical Physics and Machine Learning.
+Before joining IST Austria I studied Physics at Scuola Normale Superiore and University of Pisa, where I mostly focused on Quantum Information Theory, Statistical Physics and Machine Learning.

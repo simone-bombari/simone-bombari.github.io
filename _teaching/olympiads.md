@@ -12,4 +12,4 @@ Since I finished my "career" as an Olympiad competitor, I started advising and t
 
 In particular, I regularly hold classes on selected topics for Mathematics and Physics Olympiad.
 
-I will soon share some relevant material on this page too :)
+I will soon share some relevant material on this page too :stuck_out_tongue:
