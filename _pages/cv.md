@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Check my full CV [here](cusu).
+Check my full CV [here](https://github.com/simone-bombari/simone-bombari.github.io/raw/master/files/CV_Bombari.pdf).
 
 Education
 ======
