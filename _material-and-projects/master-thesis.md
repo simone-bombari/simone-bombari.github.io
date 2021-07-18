@@ -5,9 +5,10 @@ type: "publication"
 permalink: "/material-and-projects/master-thesis"
 venue: "---"
 date: "1/1/1"
-paperurl: 'http://urlfasullo.it'
+paperurl: 'https://raw.githubusercontent.com/simone-bombari/simone-bombari.github.io/4d2858b8196f66268f5958d7d975e3783b0782e9/files/master_thesis.pdf'
 location: "University of California Los Angeles"
 ---
+
 
 In 2020 I worked on my [Master Thesis](https://raw.githubusercontent.com/simone-bombari/simone-bombari.github.io/4d2858b8196f66268f5958d7d975e3783b0782e9/files/master_thesis.pdf) as a Visiting Graduate Researcher at the University of California Los Angeles, supervised by [Stefano Soatto](http://web.cs.ucla.edu/~soatto/) and [Alessandro Achille](https://alexachi.github.io/).
 

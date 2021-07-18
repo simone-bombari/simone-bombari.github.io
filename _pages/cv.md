@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Check my full CV [here](cusu).
+
 Education
 ======
 * B.S. in Physics, University of Pisa, 2018
