@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [fitness]
+display_categories: [random]
 horizontal: false
 ---
 
