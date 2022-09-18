@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-9-15 18:00
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work on the smallest eigenvalue of the NTK of a deep neural network has been accepted at NeurIPS 2022!
