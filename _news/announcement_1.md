@@ -5,4 +5,4 @@ inline: true
 ---
 
 Finished my long internship at AWS! :package:\
-Back in ISTA! :austria:
+Back in ISTA! :house_with_garden:
