@@ -22,7 +22,7 @@ Hello curious Google searcher! I am Simone Bombari, and this is my website! :mus
 It's still quite lame right? Will get more interesting in some time, I promise!
 
 I am a PhD student at [IST Austria](https://ist.ac.at/en/home/), happy and lucky to be supervised by Professor [Marco Mondelli](http://marcomondelli.com/).
-I really enjoy the following research topics
+Right now, I really enjoy the following research topics
 
 * Theoretical Machine Learning
 * Information Theory
