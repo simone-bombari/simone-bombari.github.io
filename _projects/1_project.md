@@ -4,7 +4,7 @@ title: FitnessAware
 description: My fitness telegram channel
 img: assets/img/FitnessAware.jpg
 importance: 1
-category: fitness
+category: random
 ---
 
 After long procrastination, I finally decided to push to the next level my passion for promoting fitness. :muscle:
