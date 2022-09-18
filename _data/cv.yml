@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Professional Master Program, awarded *cum laude*
+    - title: Professional Master Program, awarded cum laude
       institution: Scuola Normale Superiore
       year: 2020
       # description:
@@ -27,7 +27,7 @@
     #   description:
     #     - Description 1.
     #     - Description 2.
-    - title: M.Sc. Physics, awarded *cum laude*
+    - title: M.Sc. Physics, awarded cum laude
       institution: University of Pisa
       year: 2020
       # description:
@@ -37,7 +37,7 @@
       #     contents:
       #       - Sub-description 1.
       #       - Sub-description 2.
-    - title: B.Sc. Physics, awarded *cum laude*
+    - title: B.Sc. Physics, awarded cum laude
       institution: University of Pisa
       year: 2018
 
