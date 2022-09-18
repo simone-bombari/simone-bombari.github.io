@@ -19,5 +19,7 @@ FitnessAware is a Telegram channel where my brother and I regularly upload posts
     </center>
 </div>
 <div class="caption">
-    <em>"An open gym on a tropical beach at sunset, pixel art"</em>, generated with <a href="https://openai.com/dall-e-2/">DALL-E</a>.
+    <center>
+        <em>"An open gym on a tropical beach at sunset, pixel art"</em>, generated with <a href="https://openai.com/dall-e-2/">DALL-E</a>.
+    <center>
 </div>
