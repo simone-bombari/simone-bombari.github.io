@@ -7,7 +7,6 @@
 #       value: Age is just a number
     # - name: Languages
     #  value: English, German
-
 - title: Education
   type: time_table
   contents:
@@ -79,7 +78,7 @@
     type: list
     contents:
       - This is just the backbone of my CV. For a little bit more details, check the pdf document at the top right of this page.
-      If you need even more details, check my [LinkedIn page](https://www.linkedin.com/in/simone-bombari-85ab71173/).
+      If you need even more details, check my LinkedIn page.
 
 # - title: Open Source Projects
 #   type: time_table
