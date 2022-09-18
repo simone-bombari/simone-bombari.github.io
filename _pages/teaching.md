@@ -7,6 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I was teaching assistant for the Data Science Track Core Course in ISTA in 2022, and will hold the same role the upcoming spring. I also like to go back to my high school to provide training for the Math and Physics Olympiads.
 
-Organize your courses by years, topics, or universities, however you like!
+I will add sub-pages regarding this soon! :alarm_clock:
