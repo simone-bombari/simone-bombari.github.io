@@ -26,8 +26,8 @@ I really enjoy the following research topics
 
 * Theoretical Machine Learning
 * Information Theory
-* High dimensional Statistics
+* High Dimensional Statistics
 
-Before joining IST Austria I studied Physics at [Scuola Normale Superiore](https://www.sns.it/en) and [University of Pisa](https://www.unipi.it/index.php/english), where I mostly focused on Quantum Information Theory and Statistical Physics. Then, my passion for modelling and statistics led me to change field, and to approach the interesting (and weird) world of Machine Learning!
+Before joining IST Austria I studied Physics at [Scuola Normale Superiore](https://www.sns.it/en) and [University of Pisa](https://www.unipi.it/index.php/english), where I mostly focused on Quantum Information Theory and Statistical Physics. Then, my passion for modelling and statistics led me to change field, and to approach the interesting (and weird) world of Machine Learning! :computer: :books:
 
-Of course, I'm much more than just a PhD student in theoretical ML. I have a deep passion for sports, [fitness](https://t.me/FitnessAware), games and many other things! :soccer:
+Of course, I'm much more than just a PhD student in theoretical ML. I have a deep passion for sports, [fitness](https://t.me/FitnessAware), games and many other things! :soccer: :space_invader:
