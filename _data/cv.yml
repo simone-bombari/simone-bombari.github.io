@@ -30,8 +30,8 @@
     - title: M.Sc. Physics
       institution: University of Pisa
       year: 2020
-      description: Final grade: 110/110 cum laude
-      #   - Description 1.
+      description:
+          - Final grade: 110/110 cum laude
       #   - Description 2.
       #   - title: Description 3.
       #     contents:
