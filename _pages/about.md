@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: smile.jpg
+  image: smile_2.jpg
   address: >
     I21.O1.113
     Am Campus 1
