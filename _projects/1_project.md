@@ -14,7 +14,7 @@ FitnessAware is a Telegram channel where my brother and I regularly upload posts
 <div class="row">
     <center>
         <div class="col-sm-6 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FitnessAware.jpg" title="FitnessAware pic" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FitnessAware.jpg" title="FitnessAware pic" class="img-fluid rounded z-depth-1" %}
         </div>
     </center>
 </div>
