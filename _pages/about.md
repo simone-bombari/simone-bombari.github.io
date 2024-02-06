@@ -12,9 +12,10 @@ profile:
     Am Campus 1
     Klosterneuburg, 3400
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
+latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hello curious Google searcher! I am Simone Bombari, and this is my website! :muscle: :sunglasses:
