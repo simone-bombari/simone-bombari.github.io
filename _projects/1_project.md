@@ -9,7 +9,7 @@ category: random
 
 FitnessAware is a Telegram channel where my brother and I used to regularly upload posts about different fitness topics. We are interested in sport, nutrition, athletic performance, and strength training. The channel is public, so feel free to [join](https://t.me/FitnessAware) if you are interested, or even if you are just curious. We try to share beginner-friendly content, but also more technical material, for the expert athletes. :fire: <br/><br/>
 
-Some changes about this channel might happen soon, so stay tuned! In the meantime, refresh your fitness knowledge with the old posts, and subscribe!
+Some changes about this channel might happen soon, so stay tuned! In the meantime, refresh your fitness knowledge with the old posts, and subscribe! :muscle:
 
 <div class="row">
     <center>
