@@ -23,9 +23,9 @@ Hi! I am Simone Bombari, and this is my website! :muscle: :sunglasses:
 I am a PhD candidate at [ISTA](https://ist.ac.at/en/home/), happy and lucky to be supervised by Professor [Marco Mondelli](http://marcomondelli.com/).
 Right now, I really enjoy the following research topics
 
-* Deep Learning Theory
-* High Dimensional Statistics
-* Trustworthy Machine Learning
+- Deep Learning Theory
+- High Dimensional Statistics
+- Trustworthy Machine Learning
 
 Before joining ISTA I studied Physics at [Scuola Normale Superiore](https://www.sns.it/en) and [University of Pisa](https://www.unipi.it/index.php/english), where I mostly focused on Quantum Information Theory and Statistical Physics. Then, my passion for modelling and statistics led me to change field, and to approach the interesting (and weird) world of Machine Learning! :computer: :books:
 

@@ -5,8 +5,8 @@
 #       value: Simone Bombari
 #     - name: Date of Birth
 #       value: Age is just a number
-    # - name: Languages
-    #  value: English, German
+# - name: Languages
+#  value: English, German
 
 - title: Education
   type: time_table
@@ -71,7 +71,6 @@
     - title: Scientific Intern
       institution: Complexity Science Hub, Vienna
       year: 2018
-
 # - title: Open Source Projects
 #   type: time_table
 #   contents:
