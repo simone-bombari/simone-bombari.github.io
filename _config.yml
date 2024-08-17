@@ -451,3 +451,5 @@ vega-lite:
 # jsonresume:
 #   - Education
 #   - Experience
+
+lsi: false
