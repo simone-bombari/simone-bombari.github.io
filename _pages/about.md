@@ -20,6 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I am Simone Bombari, and this is my website! :muscle: :sunglasses:
 
+I am a PhD student at [ISTA](https://ist.ac.at/en/home/), happy and lucky to be advised by Professor [Marco Mondelli](http://marcomondelli.com/).
+Right now, I enjoy topics some sort connected with deep learning, high dimensional probability, and trustworthy machine learning. For example, I like to think if **over-parameterized** models trained on **high-dimensional** data hide some **not-necessarily-trivial** behavior, with maybe some implications connected to privacy or robustness.
+
 Before joining ISTA I studied Physics at [Scuola Normale Superiore](https://www.sns.it/en) and [University of Pisa](https://www.unipi.it/index.php/english). During my studies, I really enjoyed topics on statistical physics and quantum information. Then, my enthusiasm for modelling and statistics slowly made me approach the world of machine learning! :computer: :books:
 
 During my PhD, I had the luck and opportunity to intern as an applied scientist at AWS, and as NLP quant researcher at [G Research](https://www.gresearch.com/). Since the fall of 2024, I am supported by a [Google PhD fellowship](https://research.google/programs-and-events/phd-fellowship/recipients/).
