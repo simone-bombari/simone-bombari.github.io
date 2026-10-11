@@ -5,19 +5,10 @@ on:
     branches: [master, main]
     paths:
       - "index*.html"
-      - "404.html"
-      - "jemdoc.css"
-      - ".nojekyll"
-      - "robots.txt"
-      - "sitemap.xml"
-      - "publications/**"
-      - "teaching/**"
-      - "projects/**"
-      - "cv/**"
-      - "assets/img/smile_2_square.jpg"
-      - "assets/pdf/CV.pdf"
-      - "_bibliography/papers.bib"
-      - "scripts/prepare_site.py"
+      - "CV.pdf"
+      - "profile.jpg"
+      - "support/**"
+      - "!support/legacy/**"
       - ".github/workflows/deploy.yml"
   pull_request:
     branches: [master, main]
@@ -37,10 +28,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Validate and prepare static site
-        run: python3 scripts/prepare_site.py
+        run: python3 support/prepare_site.py
       - name: Deploy
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: _site
+          folder: support/_site

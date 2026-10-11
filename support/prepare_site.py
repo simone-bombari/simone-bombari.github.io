@@ -8,24 +8,24 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "_site"
-# Publish only the website. Legacy Jekyll code and example assets stay in the repo.
+OUTPUT = ROOT / "support" / "_site"
+# Source locations are kept simple; published URLs stay the same after cleanup.
 FILES = {
     "index.html": "index.html",
     "index_research.html": "index_research.html",
     "index_teach.html": "index_teach.html",
-    "404.html": "404.html",
-    "jemdoc.css": "jemdoc.css",
-    ".nojekyll": ".nojekyll",
-    "robots.txt": "robots.txt",
-    "sitemap.xml": "sitemap.xml",
-    "publications/index.html": "publications/index.html",
-    "teaching/index.html": "teaching/index.html",
-    "projects/index.html": "projects/index.html",
-    "cv/index.html": "cv/index.html",
-    "assets/img/smile_2_square.jpg": "assets/img/smile_2_square.jpg",
-    "assets/pdf/CV.pdf": "assets/pdf/CV.pdf",
-    "_bibliography/papers.bib": "assets/bibliography/papers.bib",
+    "index_cv.html": "cv/index.html",
+    "profile.jpg": "assets/img/smile_2_square.jpg",
+    "CV.pdf": "assets/pdf/CV.pdf",
+    "support/404.html": "404.html",
+    "support/jemdoc.css": "jemdoc.css",
+    "support/.nojekyll": ".nojekyll",
+    "support/robots.txt": "robots.txt",
+    "support/sitemap.xml": "sitemap.xml",
+    "support/redirects/publications/index.html": "publications/index.html",
+    "support/redirects/teaching/index.html": "teaching/index.html",
+    "support/redirects/projects/index.html": "projects/index.html",
+    "support/bibliography/papers.bib": "assets/bibliography/papers.bib",
 }
 
 
@@ -89,7 +89,7 @@ def prepare():
     ET.parse(OUTPUT / "sitemap.xml")
     if not (OUTPUT / "assets/pdf/CV.pdf").read_bytes().startswith(b"%PDF-"):
         raise ValueError("CV.pdf is not a PDF")
-    print(f"Validated {len(pages)} HTML pages and their local links; staged {len(FILES)} files in _site.")
+    print(f"Validated {len(pages)} HTML pages and their local links; staged {len(FILES)} files in support/_site.")
 
 
 if __name__ == "__main__":
