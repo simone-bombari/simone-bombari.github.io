@@ -1,5 +1,6 @@
 """Validate and stage the plain HTML website using only the Python standard library."""
 
+from hashlib import sha256
 from html.parser import HTMLParser
 from pathlib import Path
 import json
@@ -10,14 +11,15 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "support" / "_site"
-# Source locations are kept simple; published URLs stay the same after cleanup.
+# Keep editable sources at the top level and supporting files in support/.
 FILES = {
     "index.html": "index.html",
-    "index_research.html": "index_research.html",
+    "index_publications.html": "index_publications.html",
+    "support/redirects/research/index.html": "index_research.html",
     "index_teach.html": "index_teach.html",
     "support/redirects/cv/index.html": "cv/index.html",
     "profile.jpg": "assets/img/smile_2_square.jpg",
-    "CV.pdf": "assets/pdf/CV.pdf",
+    "CV.pdf": "CV.pdf",
     "support/404.html": "404.html",
     "support/jemdoc.css": "jemdoc.css",
     "support/.nojekyll": ".nojekyll",
@@ -69,6 +71,11 @@ def prepare():
     for source in files:
         if not (ROOT / source).is_file():
             raise FileNotFoundError(source)
+    cv = (ROOT / "CV.pdf").read_bytes()
+    if not cv.startswith(b"%PDF-"):
+        raise ValueError("CV.pdf is not a PDF")
+    # A new filename bypasses browser/CDN caches whenever the source PDF changes.
+    cv_url = f"/assets/pdf/CV-{sha256(cv).hexdigest()[:16]}.pdf"
     # Refuse a symlink so cleaning generated output cannot affect another folder.
     if OUTPUT.is_symlink():
         raise ValueError("_site must not be a symlink")
@@ -79,8 +86,27 @@ def prepare():
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / source, target)
 
-    # Static hosting cannot list folders in the browser. Generate the image choices
-    # during deployment so adding/removing photos never requires editing the HTML.
+    for destination in ("assets/pdf/CV.pdf", cv_url.lstrip("/")):
+        target = OUTPUT / destination
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(cv)
+
+    script = (ROOT / "support" / "random-images.js").read_text()
+    (OUTPUT / "random_images" / "links.js").write_text(
+        script.replace("__IMAGE_CHOICES__", json.dumps(image_choices))
+    )
+
+    # Homepage links already point at an image without JavaScript; the script
+    # chooses and preloads a random image before each new-tab navigation.
+    for path in OUTPUT.rglob("*.html"):
+        html = path.read_text().replace('href="/CV.pdf"', f'href="{cv_url}"')
+        html = html.replace('url=/CV.pdf"', f'url={cv_url}"')
+        for category, images in image_choices.items():
+            html = html.replace(f'href="/random_images/{category}/"', f'href="{images[0]}"')
+        path.write_text(html)
+
+    # Preserve earlier category URLs for bookmarks. Homepage links bypass these
+    # redirect pages and open preloaded images directly.
     for category, images in image_choices.items():
         target = OUTPUT / "random_images" / category / "index.html"
         target.write_text(f'''<!doctype html>
@@ -126,10 +152,9 @@ def prepare():
             if url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:
                 raise ValueError(f"Missing anchor in {path.relative_to(OUTPUT)}: {reference}")
     ET.parse(OUTPUT / "sitemap.xml")
-    if not (OUTPUT / "assets/pdf/CV.pdf").read_bytes().startswith(b"%PDF-"):
-        raise ValueError("CV.pdf is not a PDF")
-    total_files = len(files) + len(image_choices)
+    total_files = sum(path.is_file() for path in OUTPUT.rglob("*"))
     print(f"Validated {len(pages)} HTML pages and their local links; staged {total_files} files in support/_site.")
+    print(f"CV links open {cv_url}, copied from the top-level CV.pdf.")
     for category, images in image_choices.items():
         print(f"Random {category} link: {len(images)} images available.")
 
